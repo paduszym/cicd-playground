@@ -1,0 +1,14 @@
+name: 'Sample Workflow'
+on:
+  push:
+    branches:
+      - 'master'
+jobs:
+  hello:
+    name: 'Hello Job'
+    runs-on: 'ubuntu-latest'
+    uses: 'actions/setup-node@v3'
+    steps:
+      - name: 'Print Node.js version'
+        run: |
+          node --version
