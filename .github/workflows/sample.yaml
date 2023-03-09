@@ -7,8 +7,8 @@ jobs:
   hello:
     name: 'Hello Job'
     runs-on: 'ubuntu-latest'
-    uses: 'actions/setup-node@v3'
     steps:
+      - uses: 'actions/setup-node@v3'
       - name: 'Print Node.js version'
         run: |
           node --version
