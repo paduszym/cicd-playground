@@ -12,7 +12,7 @@ jobs:
       - uses: 'actions/setup-node@v3'
       - name: 'Print Node.js version'
         run: |
-          echo abc > abc.txt
+          echo abcdef > abc.txt
           git add abc.txt
           git -c user.name=github-actions -c user.email=github-actions@github.com commit -m 'Autocommit [skip ci]'
           git push
