@@ -12,5 +12,6 @@ jobs:
       - uses: 'actions/setup-node@v3'
       - name: 'Print Node.js version'
         run: |
-          npm version minor
-          git push
+          echo abc > abc.txt
+          git add abc.txt
+          git commit --author 'John Doe <johndoe@github.com>' -m 'Auto'
