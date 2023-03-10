@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: 'actions/checkout@v3'
       - uses: 'actions/setup-node@v3'
-      - name: 'Print Node.js version'
+      - name: 'Print Node.js versiona'
         run: |
           date > abc.txt
           git add abc.txt
