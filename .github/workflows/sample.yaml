@@ -11,7 +11,4 @@ jobs:
       - uses: 'actions/setup-node@v3'
       - name: 'Print Node.js version'
         run: |
-          node --version
-          npm --version
-          npm config ls
-          git --version
+          git config -l
