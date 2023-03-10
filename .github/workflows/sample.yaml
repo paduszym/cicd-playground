@@ -14,5 +14,5 @@ jobs:
         run: |
           date > abc.txt
           git add abc.txt
-          git -c user.name=github-actions -c user.email=github-actions@github.com commit --author 'Github CI <github-ci@github.com>' -m 'Autocommit [skip ci]'
+          git -c user.name=github-actions -c user.email=github-actions@github.com commit --author 'Github CI <github-ci@github.com>' -m 'Autocommit'
           git push
