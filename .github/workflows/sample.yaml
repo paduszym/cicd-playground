@@ -14,4 +14,4 @@ jobs:
         run: |
           echo abc > abc.txt
           git add abc.txt
-          git commit --author 'John Doe <johndoe@github.com>' -m 'Auto'
+          git -c user.name 'Jan Kowalski' -c user.email 'jan.kowalski@github.com' commit -m 'Auto'
