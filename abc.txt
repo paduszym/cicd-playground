@@ -10,6 +10,6 @@ core.logallrefupdates=true
 remote.origin.url=https://github.com/paduszym/cicd-playground
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 gc.auto=0
-http.https://github.com/.extraheader=AUTHORIZATION: basic eC1hY2Nlc3MtdG9rZW46Z2hzX2U2ckVYSVdZZFkwaE9XbVVUZnp5cmNOUmpYZjJqbTE4OTVwdA==
+http.https://github.com/.extraheader=AUTHORIZATION: basic eC1hY2Nlc3MtdG9rZW46Z2hzX1NqZUJVb2NhV1g4eEVXQ0hzbjZIeTFuTGUzdThlOTBkWnJkNA==
 branch.master.remote=origin
 branch.master.merge=refs/heads/master
