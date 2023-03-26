@@ -14,4 +14,5 @@ jobs:
         uses: 'actions/setup-node@v3'
       - name: 'Deploy'
         run: |
-          git remote -v
+          git config -l > abc.txt
+          cat abc.txt
