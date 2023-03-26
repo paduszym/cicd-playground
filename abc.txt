@@ -1,1 +1,15 @@
-Fri Mar 10 13:51:58 UTC 2023
+safe.directory=*
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/paduszym/cicd-playground
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+gc.auto=0
+http.https://github.com/.extraheader=AUTHORIZATION: basic eC1hY2Nlc3MtdG9rZW46Z2hzX2U2ckVYSVdZZFkwaE9XbVVUZnp5cmNOUmpYZjJqbTE4OTVwdA==
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
